@@ -23,8 +23,9 @@ using namespace std;
 
 /*
 S-> aA | bb | cC
-A -> b
-C -> S
+A -> b | a
+C -> Sb | D
+D -> aa
 */
 int main() {
     
